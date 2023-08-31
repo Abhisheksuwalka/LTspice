@@ -1,0 +1,11 @@
+1. install Homebrew // take refrence from brew official website.
+2. brew install wine-crossover.
+3. download LTspice64.msi for windows from Ltspice official website and move it to Downloads folder.
+4. open wine crossover from app-drawer there will b icon like 🍷.
+5. change directory and install software using 
+cd Downloads/
+msiexec /i LTspice64.msi
+6. now open new terminal window and change directry using 
+cd ~/.wine/drive_c/users/crossover/Desktop
+7. run the application 
+./LTspice.desktop 
