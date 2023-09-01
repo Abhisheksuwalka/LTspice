@@ -1,0 +1,28 @@
+everytime you want to run the program, you will need to go to the path
+
+-> cd ~/.wine/drive_c/users/crossover/Desktop
+
+then you need to run the program by 
+-> ./LTspice.desktop
+
+or what you can do is create a script 
+
+go to 
+-> cd ~
+then
+-> vim RunLTspice.sh
+then paste this there / or create your own script  
+
+#!/bin/bash
+
+cd ~/.wine/drive_c/users/crossover/desktop/
+./LTspice.desktop
+
+then save it with " :wq "
+
+and every time you run the script using 
+-> ./RunLTspice.sh
+
+in terminal
+the program is going to open.
+thank you.
